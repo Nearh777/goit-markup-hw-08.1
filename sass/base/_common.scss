@@ -1,8 +1,30 @@
 body {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
+}
 
-  font-family: 'Roboto', sans-serif;
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  letter-spacing: 0.03em;
+  line-height: 1.71;
+
+  @include desktop {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  &__title {
+    margin-bottom: 50px;
+
+    @include font(null, 36px, calc(42 / 36), null);
+    text-align: center;
+    color: var(--primary-text-color);
+  }
 }
 
 .list {
@@ -14,4 +36,12 @@ body {
   text-decoration: none;
 }
 
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
 
+.no-scroll {
+  overflow: hidden;
+}

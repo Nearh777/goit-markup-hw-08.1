@@ -1,5 +1,7 @@
 @import './utils/variables';
 @import './utils/hidden';
+@import './utils/mixin';
+@import './utils/paceholders';
 @import './base/common';
 @import './base/reset';
 
@@ -8,6 +10,7 @@
 @import './components/section';
 @import './components/btn-secondary';
 @import './components/modal';
+@import './components/button';
 
 
 @import './layouts/header';
