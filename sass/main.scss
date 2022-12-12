@@ -1,24 +1,21 @@
-@import './utils/variables';
-@import './utils/hidden';
-@import './utils/mixin';
-@import './utils/paceholders';
-@import './base/common';
+@import './abstracts/vars';
+@import './abstracts/mixins';
+@import './abstracts/paceholders';
 @import './base/reset';
-
-
+@import './base/hidden';
+@import './base/common';
 @import './components/container';
-@import './components/section';
-@import './components/btn-secondary';
-@import './components/modal';
+@import './components/link-main';
+@import './components/navigation';
+@import './components/logo';
 @import './components/button';
-
-
+@import './components/socials';
 @import './layouts/header';
 @import './layouts/hero';
-@import './layouts/cardlist';
+@import './components/modal';
+@import './layouts/features';
 @import './layouts/job';
 @import './layouts/team';
-@import './layouts/customers';
-@import './layouts/work';
+@import './layouts/clients';
 @import './layouts/footer';
-@import './layouts/online';
+@import './pages/portfolio';
