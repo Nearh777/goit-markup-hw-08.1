@@ -82,6 +82,7 @@ body {
   font-size: 14px;
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
+  padding-top: 61px;
 }
 
 .section {
@@ -98,10 +99,18 @@ body {
 }
 .section__title {
   margin-bottom: 50px;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.1666666667;
   text-align: center;
   color: var(--title-text-color);
+}
+@media screen and (min-width: 1200px) {
+  .section__title {
+    font-size: 36px;
+    line-height: 1.1666666667;
+    text-align: center;
+    color: var(--title-text-color);
+  }
 }
 
 .is-hidden {
@@ -528,7 +537,7 @@ body {
   margin: 0 auto 30px auto;
   max-width: 100%;
   font-weight: 900;
-  font-size: 18px;
+  font-size: 26px;
   line-height: 1.6111111111;
   letter-spacing: 0.06em;
   text-align: center;
@@ -576,7 +585,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 100%;
+  width: calc(100% - 30px);
   max-height: 619px;
   height: 100%;
   padding: 40px;
@@ -768,7 +777,7 @@ body {
 .modal-form-submit {
   display: block;
   margin: 30px auto 0 auto;
-  padding: 8px 50px;
+  padding: 10px 50px;
 }
 
 .backdrop.is-hidden .modal {

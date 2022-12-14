@@ -51,7 +51,7 @@
     margin: 0 auto 30px auto;
     max-width: 100%;
 
-    @include font(900, 18px, calc(29 / 18), 0.06em);
+    @include font(900, 26px, calc(29 / 18), 0.06em);
     text-align: center;
     text-transform: uppercase;
     color: var(--white-color);

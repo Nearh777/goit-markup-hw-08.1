@@ -16,7 +16,7 @@
   top: 50%;
   left: 50%;
 
-  width: 100%;
+  width: calc(100% - 30px);
   max-height: 619px;
   height: 100%;
   padding: 40px;
@@ -189,7 +189,7 @@
 .modal-form-submit {
   display: block;
   margin: 30px auto 0 auto;
-  padding: 8px 50px;
+  padding: 10px 50px;
 }
 
 .backdrop.is-hidden .modal {
