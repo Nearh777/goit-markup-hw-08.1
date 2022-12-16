@@ -3,7 +3,7 @@ body {
   font-size: 14px;
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
-  padding-top: 61px; 
+  padding-top: 61px;
 }
 
 .section {
@@ -12,7 +12,6 @@ body {
 
   letter-spacing: 0.03em;
   line-height: 1.71;
-  
 
   @include desktop {
     padding-top: 94px;
@@ -20,15 +19,16 @@ body {
   }
 
   &__title {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     @include font(null, 28px, calc(42 / 36), null);
     text-align: center;
     color: var(--title-text-color);
-    
+
     @include desktop {
       @include font(null, 36px, calc(42 / 36), null);
-    text-align: center;
-    color: var(--title-text-color);
+      text-align: center;
+      color: var(--title-text-color);
+      margin-bottom: 50px;
     }
   }
 }

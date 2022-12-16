@@ -98,7 +98,7 @@ body {
   }
 }
 .section__title {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-size: 28px;
   line-height: 1.1666666667;
   text-align: center;
@@ -110,6 +110,7 @@ body {
     line-height: 1.1666666667;
     text-align: center;
     color: var(--title-text-color);
+    margin-bottom: 50px;
   }
 }
 
